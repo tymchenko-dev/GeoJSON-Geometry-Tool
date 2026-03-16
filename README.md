@@ -106,18 +106,18 @@ Geometric calculations are implemented using turf.js.
 
 Project Structure
 src/
-├── components/
-│   ├── MapView.jsx
-│   ├── GeometryList.jsx
-│   ├── GeometryForm.jsx
-│   └── OperationPanel.jsx
-├── hooks/
-│   └── useGeometries.js
-├── utils/
-│   ├── geometryOps.js
-│   └── sampleData.js
-├── App.jsx
-└── main.jsx
+-components/
+  -MapView.jsx
+  -GeometryList.jsx
+  -GeometryForm.jsx
+  -OperationPanel.jsx
+-hooks/
+  -useGeometries.js
+-utils/
+  - geometryOps.js
+    - sampleData.js
+- App.jsx
+- main.jsx
 
 Getting Started
 
